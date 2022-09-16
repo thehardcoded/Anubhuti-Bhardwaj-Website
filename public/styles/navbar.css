@@ -1,0 +1,92 @@
+nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  margin-bottom: -5em;
+  align-items: center;
+  width: 100%;
+  height: 5em;
+  z-index: 2;
+}
+.logo {
+  text-align: center;
+  color: #dedede;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  font-size: 1em;
+  padding-left: 1.5em;
+}
+.mainnavdiv {
+  display: flex;
+  align-items: center;
+  margin-left: 11em;
+  height: 100%;
+}
+.navdiv {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 100%;
+}
+.navlink {
+  text-decoration: none;
+}
+.navtext {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.active::before {
+  content: "";
+  position: absolute;
+  border-radius: 10px;
+  height: 0.2em;
+  width: 100%;
+  top: 80%;
+  left: 0;
+  background-color: white;
+}
+
+.openmenu {
+  display: none;
+  position: absolute;
+  left: 5%;
+  top: 35%;
+  font-size: 1em;
+  color: #dedee0;
+}
+.closemenu {
+  display: none;
+  position: absolute;
+  left: 5%;
+  top: 35%;
+  font-size: 1em;
+  color: #dedee0;
+}
+
+@media only screen and (max-width: 900px) {
+  .mainnavdiv {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: auto;
+    margin-left: 1em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 1;
+  }
+  .navdiv {
+    padding-bottom: 2em;
+  }
+  .logo {
+    width: 100%;
+  }
+  .active::before {
+    top: 60%;
+  }
+}

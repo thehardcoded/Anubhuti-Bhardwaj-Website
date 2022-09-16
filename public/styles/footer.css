@@ -1,0 +1,50 @@
+.footer {
+  background-image: linear-gradient(180deg,#0931b7,#082eaa);
+  padding: 2em;
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.about_heading {
+  font-size: 1em;
+  letter-spacing: 0.1em;
+}
+.about {
+  width: 40%;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+.line{
+    width: 100%;
+    border-bottom:1px solid white ;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.copyright{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 0.5em;
+}
+.email{
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 0.8em;
+    padding: 0.5em;
+    letter-spacing: 0.1em;
+}
+.mailid{
+    margin-left: 0.5em;
+    text-transform: lowercase;
+    letter-spacing: 0.1em;
+}
+@media only screen and (max-width: 595px) {
+    .about {
+        width: 80%;
+        font-weight: 600;
+        font-size: 0.9em;
+      }
+}

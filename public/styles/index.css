@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+}
+html {
+  overflow: hidden;
+}
+.section {
+  height: CALC(100% + 1px);
+  width: 100%;
+  overflow-y: scroll;
+  position: fixed;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  overscroll-behavior: contain;
+}
+.section::-webkit-scrollbar {
+  width: 0 !important;
+}
+.home1 {
+  position: relative;
+  display: flex;
+}
+.video_main {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.title_container {
+  width: 100%;
+  position: absolute;
+  top: 16.8em;
+  display: flex;
+  justify-content: center;
+}
+.home_title {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  padding-left: 0.1em;
+  margin: 0;
+}
+.description_container {
+  width: 100%;
+  position: absolute;
+  top: 20em;
+  display: flex;
+  justify-content: center;
+}
+.home_description {
+  width: 60%;
+  text-align: center;
+  color: white;
+  font-size: 1.15em;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.button_container {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 28em;
+  z-index: 2;
+}
+.explore_button,
+.project_button {
+  background-color: transparent;
+  padding: 0.5em;
+  border: 1px solid white;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+.explore_button a,
+.project_button a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* home2 */
+
+.home2 {
+  position: relative;
+  display: flex;
+}
+.home2_image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.home2_description_container {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 10em;
+}
+.home2_description {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.3em;
+  width: 50%;
+}
+.project_button_container {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 23em;
+  z-index: 2;
+}
+.project_button a {
+  font-size: 1.1em;
+  margin: 1em;
+  font-weight: bold;
+}
+
+/* home3 */
+.home3 {
+  padding: 1em;
+  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.home3_heading {
+  width: 100%;
+  text-align: center;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #262626;
+  border-top: 2px solid #082eaa;
+  border-bottom: 2px solid #082eaa;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+/* blog card */
+.home3_card_container {
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 0.1em;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+}
+.card_link {
+  width: 23em;
+  margin: 1em;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px -2px rgb(255 255 255 / 70%);
+}
+.home3_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: linear-gradient(180deg,#0931b7,#082eaa);
+}
+.card_image {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.card_title {
+  font-size: 1.4em;
+  margin-top: 1em;
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+}
+.card_description {
+  font-weight: 600;
+  color: white;
+  width: 90%;
+  text-align: center;
+}
+.author_date {
+  color: white;
+  font-weight: 800;
+  font-size: 0.9em;
+  letter-spacing: 0.09em;
+  margin-bottom: 1.5em;
+}
+.author,
+.date {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+/* Responsive media Query */
+
+@media only screen and (max-width: 788px) {
+  .home_description,
+  .home2_description {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 595px) {
+  .description_container {
+    top: 23em;
+  }
+  .home_description {
+    width: 80%;
+  }
+  .button_container {
+    top: 36em;
+  }
+  .home2_description_container {
+    top: 15em;
+  }
+  .project_button_container {
+    top: 28em;
+  }
+}
+@media only screen and (max-width: 386px) {
+  .project_button_container {
+    top: 33em;
+  }
+}
+
+@media (hover: none) {
+  .explore_button,
+  .project_button {
+    background-color: transparent;
+  }
+}
+@media (hover: hover) {
+  .explore_button:hover,
+  .project_button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
