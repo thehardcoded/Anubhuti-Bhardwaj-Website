@@ -2,11 +2,11 @@
 
 # give permission to the files inside /secure_docs directory
 
-sudo chmod -R 777 /home/ubuntu/Anubhuti-bhardwaj-website
+sudo chmod -R 777 /home/ubuntu/Anubhuti-bhardwaj-Website
 
 # navigate into current working directory
 
-cd /home/ubuntu/Anubhuti-bhardwaj-website
+cd /home/ubuntu/Anubhuti-bhardwaj-Website
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"	
