@@ -2,11 +2,11 @@
 
 # give permission to the files inside /secure_docs directory
 
-sudo chmod -R 777 /home/ubuntu/Anubhuti-bhardwaj-Website
+sudo chmod -R 777 /home/ubuntu/Anubhuti-Bhardwaj-Website
 
 # navigate into current working directory
 
-cd /home/ec2-user/Anubhuti-bhardwaj-Website
+cd /home/ubuntu/Anubhuti-Bhardwaj-Website
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"	
@@ -18,4 +18,4 @@ npm install
 
 # start our node app in the background using pm2
 
-node app.js > app.out.log 2> app.err.log < /dev/null &
+sudo pm2 start ‘npm start.’
