@@ -1,8 +1,8 @@
 {
-  "name": "Anubhuti_Bhardwaj_web",
+  "name": "Anubhuti-Bhardwaj-website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "body-parser": "^1.20.0",
     "ejs": "^3.1.8",
@@ -16,7 +16,8 @@
     "nodemon": "^2.0.19"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
