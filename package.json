@@ -9,14 +9,15 @@
     "gray-matter": "^4.0.3",
     "markdown-it": "^13.0.1",
     "module": "^1.2.5",
-    "node": "^16.17.0"
+    "node": "^16.17.0",
+    "pm2": "^5.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "keywords": [],
   "author": "",
