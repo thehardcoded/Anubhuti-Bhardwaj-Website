@@ -6,7 +6,7 @@ sudo chmod -R 777 /home/ubuntu/Anubhuti-bhardwaj-Website
 
 # navigate into current working directory
 
-cd /home/ubuntu/Anubhuti-bhardwaj-Website
+cd /home/ec2-user/Anubhuti-bhardwaj-Website
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"	
