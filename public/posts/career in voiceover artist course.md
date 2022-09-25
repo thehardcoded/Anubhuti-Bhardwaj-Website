@@ -42,11 +42,17 @@ altimagetext: "VoiceOver Studio"
 
 ## CAREER OPTIONS
 > **You Van Give Voices In Radio Programs**
+>
 > **Can Narrate Story Books**
+>
 > **In Documentaries For Explaining The Scenario And Facts**
+>
 > **Cartoon Funny Voices**
+>
 > **Dub smash/ Dubbing Artist**
+>
 > **To Portray Characters**
+>
 > **Into Theatre**
 
 ## Perks
