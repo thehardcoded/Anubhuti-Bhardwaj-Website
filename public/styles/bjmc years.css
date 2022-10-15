@@ -1,0 +1,89 @@
+.home4_course_container {
+    display: flex;
+    border-radius: 10px;
+   justify-content: center;
+    margin: 0.1em;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+}
+
+.bjmc_course_container::before {
+    content: "";
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    height: 8px;
+    width: calc(100% - 60px);
+    background-color: black;
+    border-radius: 0px 0px 0 0;
+    opacity: 0.3;
+}
+.bjmc_course_container {
+    width: 23em;
+    margin: 1em;
+    box-shadow: 0 2px 4px -2px rgb(255 255 255 / 80%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(180deg,#0931b7,#082eaa);
+}
+
+.card_image {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+
+.course_count {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0.5em;
+
+}
+
+.unit_name {
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+
+.download_button_container {
+   margin-bottom: 1em;
+   margin-top: 0.5em;
+}
+
+.download_button {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 22em;
+    padding: 0;
+}
+
+.download_button a {
+    padding: 1em;
+    display: block;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    letter-spacing: 0.01em;
+    
+}
+
+
+@media (hover: none) {
+    .download_button {
+        background-color: transparent;
+    }
+}
+
+@media (hover: hover) {
+    .download_button:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}

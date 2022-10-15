@@ -73,18 +73,21 @@ html {
 .explore_button,
 .project_button {
   background-color: transparent;
-  padding: 0.5em;
   border: 1px solid white;
-  margin-right: 0.5em;
-  margin-left: 0.5em;
+  margin-right: 1em;
+  margin-left: 1em;
+  padding: 0;
 }
 .explore_button a,
 .project_button a {
+  display: block;
   font-weight: bold;
   color: white;
   text-decoration: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding: 1em;
+    margin: 0;
 }
 
 /* home2 */
@@ -125,8 +128,8 @@ html {
 }
 .project_button a {
   font-size: 1.1em;
-  margin: 1em;
   font-weight: bold;
+  padding: 1.5em;
 }
 
 /* home3 */
