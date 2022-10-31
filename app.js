@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000;
+const port = 443;
 const blogs = require('./public/scripts/blog');
 const bjmc_courses = require('./public/scripts/bjmc courses');
 
