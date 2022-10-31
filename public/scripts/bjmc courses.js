@@ -15,13 +15,13 @@ var course3 = {
     course_name: "Value Education (notes)",
     course_link: "https://drive.google.com/uc?export=download&id=1RpQHEdVQcx-NVyqWNzZRAUBDusr9SiBh",
 }
-/*var course4 = {
+var course4 = {
     course_count: "Course-IV",
     course_name: "General Hindi (notes)",
-    course_link: "www.gdrive.com",
-}*/
+    course_link: "https://drive.google.com/uc?export=download&id=1a3NikKHqglWywW3hWxY6I30GTRuzVue6",
+}
 
-var semester1 = [course1, course2, course3];
+var semester1 = [course1, course2, course3, course4];
 
 /* 1st year semester 2 
 
